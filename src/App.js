@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <Navbar data={data} setData={setData} setSearchQuery={setSearchQuery}/>
-      {search?<Hero search={search}/>:null}
+      <Hero search={search}/>
     </div>
   );
 }
